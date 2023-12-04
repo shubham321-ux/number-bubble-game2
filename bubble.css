@@ -102,3 +102,9 @@ html,body{
 #hide{
 	visibility: visible;
 }
+@media only screen and (max-width: 768px){
+	#bubble{
+		gap:20px;
+	}
+}
+	
