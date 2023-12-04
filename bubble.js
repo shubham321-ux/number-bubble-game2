@@ -70,7 +70,7 @@ document.getElementById('startbtn').addEventListener('click',function(){
 	makebubble();
 	var btm=document.getElementById('panelBottom');
 btm.innerHTML=clutter;
-    timer=20;
+    timer=60;
 	runtime();
 	
 	hitload();
@@ -91,7 +91,7 @@ document.getElementById('panelBottom').addEventListener('click',function(dets){
 		
 	}
 })
-console.log(Math.floor(Math.random()*10))
+
 	
 
 
